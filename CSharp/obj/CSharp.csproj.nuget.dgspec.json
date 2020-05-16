@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Timothy\\MyProjects\\Comparisons\\CSharp\\CSharp.csproj": {}
+    "C:\\users\\timothy\\myprojects\\Comparisons\\CSharp\\CSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Timothy\\MyProjects\\Comparisons\\CSharp\\CSharp.csproj": {
+    "C:\\users\\timothy\\myprojects\\Comparisons\\CSharp\\CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Timothy\\MyProjects\\Comparisons\\CSharp\\CSharp.csproj",
+        "projectUniqueName": "C:\\users\\timothy\\myprojects\\Comparisons\\CSharp\\CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "C:\\Users\\Timothy\\MyProjects\\Comparisons\\CSharp\\CSharp.csproj",
+        "projectPath": "C:\\users\\timothy\\myprojects\\Comparisons\\CSharp\\CSharp.csproj",
         "packagesPath": "C:\\Users\\Timothy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Timothy\\MyProjects\\Comparisons\\CSharp\\obj\\",
+        "outputPath": "C:\\users\\timothy\\myprojects\\Comparisons\\CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

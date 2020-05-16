@@ -1,0 +1,13 @@
+C:\users\timothy\myprojects\Comparisons\CSharp\bin\Debug\netcoreapp3.1\CSharp.exe
+C:\users\timothy\myprojects\Comparisons\CSharp\bin\Debug\netcoreapp3.1\CSharp.deps.json
+C:\users\timothy\myprojects\Comparisons\CSharp\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.json
+C:\users\timothy\myprojects\Comparisons\CSharp\bin\Debug\netcoreapp3.1\CSharp.runtimeconfig.dev.json
+C:\users\timothy\myprojects\Comparisons\CSharp\bin\Debug\netcoreapp3.1\CSharp.dll
+C:\users\timothy\myprojects\Comparisons\CSharp\bin\Debug\netcoreapp3.1\CSharp.pdb
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.csprojAssemblyReference.cache
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.csproj.CoreCompileInputs.cache
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfoInputs.cache
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.AssemblyInfo.cs
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.dll
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.pdb
+C:\users\timothy\myprojects\Comparisons\CSharp\obj\Debug\netcoreapp3.1\CSharp.genruntimeconfig.cache

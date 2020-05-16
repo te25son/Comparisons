@@ -4,44 +4,69 @@ using System.Text;
 
 namespace CSharp
 {
-    public class LinkedStack<T> : ICollection<T>, IEnumerable<T>, IEnumerable, IReadOnlyCollection<T>, ICollection
+    public class Node<T>
+    {
+        public Node(T element, Node<T> next)
+        {
+            Element = element;
+            Next = next;
+        }
+
+        public T Element { get; set; }
+        
+        public Node<T> Next { get; set; }
+    }
+
+    public class LinkedStack<T>
     {
         public LinkedStack()
         {
-            _head = new Node<T>(default(T), _);  // T can be either a reference or value type so return default.
-            _size = 0;
+            Head = new Node<T>(default, null);
+            Size = 0;
         }
 
-        private Node _head { get; set; }
+        public Node<T> Head;
 
-        private int _size { get; set; }
+        public int Size { get; set; }
 
-        public int Length()
+        public int Length
         {
-            return _size;
+            get { return Size; }
         }
 
-        public bool IsEmpty()
+        public bool IsEmpty
         {
-            return _size.Equals(0);
+            get { return Size.Equals(0); }
         }
 
         public void Push(T element)
         {
-            _head = new Node(element, _head);
+            // Add element to top of stack.
+            Head = new Node<T>(element, Head);
+            Size += 1;
         }
 
-        public class Node<T>
+        public T Top()
         {
-            public Node(T element, T next)
+            // Returns but does not remove the element at the top of the stack.
+            if (this.IsEmpty)
             {
-                _element = element;
-                _next = next;
+                throw new Exception("The list is empty!");
             }
+            return Head.Element;
+        }
 
-            private T _element { get; }
-
-            private T _next { get; }
+        public T Pop()
+        {
+            // Remove and return the element from the top of the stack (LIFO).
+            if (this.IsEmpty)
+            {
+                throw new Exception("The list is empty!");
+            }
+            var result = Head.Element;
+            Head = Head.Next;
+            Size -= 1;
+            return result;
         }
     }
 }
